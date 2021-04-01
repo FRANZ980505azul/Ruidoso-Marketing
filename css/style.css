@@ -1,0 +1,60 @@
+body{
+    height: 100%;
+    background: linear-gradient(to bottom, #a1ae9a, #3c7457);
+    font-family: "Nimbus Sans Narrow";
+}
+.header{
+    height: 35%;
+}
+.mainContent{
+    height: 25%;
+}
+.openingContainer{
+    position: relative;
+    padding: 0;
+}
+.openingTextContainer{
+    position: absolute;
+    left: 65%;
+    top: -100;
+}
+.openingText{
+    color: #d7353a;
+    font-size: 36px;
+    font-weight: bold;
+}
+.toolsImageContainer{
+    width: 50%;
+}
+.openingImage{
+    height: 35%;
+}
+.logoImage{
+    margin-top: 10px;
+    height: 55%;
+}
+.openingImageContainer{
+    text-align: center;
+}
+.logoImageContainer{
+    text-align: center;
+}
+.toolsImage{
+    float: right;
+}
+.informationContainer{
+    color: white;
+    text-align: center;
+}
+.whatWeDO{
+    font-size: 34px;
+}
+.quote{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 32px;
+}
+.phoneNumber{
+    font-size: 42px;
+    text-shadow: 0.1em 0.1em #333;
+}
