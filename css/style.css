@@ -2,9 +2,11 @@ body{
     font-family: "Nimbus Sans Narrow";
 }
 .openingImage{
-    height: 200px;
+    margin-top: -105px;
+    height: 350px;
 }
 .logoImage{
+    margin-top: -125px;
     height: 200px;
 }
 .openingText{
@@ -42,6 +44,29 @@ body{
 @media (min-width: 650px) {
     .openingText{
         position: absolute;
-        top: 350px;
+        top: 265px;
+    }
+    .openingImage{
+        margin-top: -175px;
+        height: 500px;
+    }
+    .logoImage{
+        margin-top: -225px;
+        height: 200px;
+    }
+}
+@media (max-width: 360px) {
+    .openingImage{
+        margin-left: -18%;
+    }
+}
+@media (max-width: 375px) {
+    .openingImage{
+        margin-left: -15%;
+    }
+}
+@media (max-width: 420px) {
+    .openingImage{
+        margin-left: -8%;
     }
 }
