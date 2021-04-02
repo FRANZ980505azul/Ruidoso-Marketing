@@ -1,3 +1,6 @@
+body{
+    font-family: "Nimbus Sans Narrow";
+}
 .openingImage{
     height: 200px;
 }
@@ -6,53 +9,27 @@
 }
 .openingText{
     color: #d7353a;
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 1.2rem;
 }
 .toolsImage{
     float: right;
 }
 .whatWeDO{
-    font-size: 34px;
+    font-size: 2.5rem;
+    text-shadow: 0.1em 0.1em #333;
 }
 .quote{
     -webkit-text-fill-color: white;
     -webkit-text-stroke: 1px black;
-    font-size: 32px;
+    font-size: 2.5rem;
 }
 .phoneNumber{
-    font-size: 42px;
+    font-size: 2.5rem;
     text-shadow: 0.1em 0.1em #333;
 }
-/*body{
-    background: linear-gradient(to bottom, #a1ae9a, #3c7457);
+@media (min-width: 650px) {
+    .openingText{
+        position: absolute;
+        top: 35%;
+    }
 }
-.header{
-    height: 35%;
-}
-.mainContent{
-    height: 25%;
-}
-.openingContainer{
-    position: relative;
-    padding: 0;
-}
-.openingTextContainer{
-    position: absolute;
-    left: 65%;
-    top: -100;
-}
-.toolsImageContainer{
-    width: 50%;
-}
-.openingImageContainer{
-    text-align: center;
-}
-.logoImageContainer{
-    text-align: center;
-}
-.informationContainer{
-    color: white;
-    text-align: center;
-}
-*/
